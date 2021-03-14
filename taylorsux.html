@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <link rel="icon" type="image/png" href="images/fav.png" />
+    <link href="ic.css?v=0.1" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <title>Shut up Taylor</title>
+    <style>
+      body {
+        background: url('images/beaut.jpg');
+        background-size: cover;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="button floating-button green-button">
+       <ul>
+        <li class="first-list-item">Menu</li>
+        <li class="list-item"><a style="text-decoration:none;" href="index.html">Home</a></li>
+        <li class="list-item"><a style="text-decoration:none;" href="table.html">Table</a></li>
+        <li class="close-list-item list-item">Close</li>
+      </ul>
+    </button>
+    shut up taylor
+    <script>
+    $(function() {
+      "use strict";
+    var d, x, y, selected;
+    $('.button, .close-list-item').on('click', function(e) {
+
+      var $this = $('.button, .close-list-item');
+      if($this.find('.is-selected').length === 0) {
+        $this.prepend('<span class="is-selected"></span>');
+      }
+
+      selected = $this.find('.is-selected');
+      selected.removeClass('animate');
+
+      if(!selected.height() && !selected.width()) {
+        d = Math.max($(this).outerWidth(), $(this).outerHeight());
+        selected.css({height: d, width: d});
+      }
+
+      x = e.pageX - $this.offset().left - selected.width()/2;
+      y = e.pageY - $this.offset().top - selected.height()/2;
+
+      selected.css({top: 0+'px', left: 0+'px'}).addClass('animate');
+
+      $this.addClass('expanded-button');
+      $('.first-list-item, .list-item').hide();
+      $('.list-item').show();
+    });
+
+    $('.close-list-item').on('click', function(e){
+       e.stopPropagation();
+       $('.expanded-button').removeClass('expanded-button');
+       $('.list-item').hide();
+      $('.first-list-item').show();
+    });
+
+    });
+    </script>
+  </body>
+</html>

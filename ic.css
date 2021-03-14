@@ -1,0 +1,475 @@
+.container {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  float: left;
+}
+
+.ice {
+  position: absolute;
+  top: 130px;
+  left: 317px;
+  animation: bounce 2s infinite;
+}
+
+.iceTop {
+  width: 185px;
+  height: 180px;
+  background: #48BDFF;
+  position: absolute;
+  border-radius: 50%;
+  top: -6px;
+}
+
+.iceTop2 {
+  width: 170px;
+  height: 180px;
+  background: #2C97F7;
+  position: absolute;
+  border-radius: 50%;
+  top: -5px;
+  left: 2px;
+}
+
+.iceTop3 {
+  width: 142px;
+  height: 200px;
+  background: #48BDFF;
+  position: absolute;
+  border-radius: 50%;
+  top: -3px;
+  left: 0px;
+}
+
+.iceBody1 {
+  width: 185px;
+  height: 170px;
+  background: #48BDFF;
+  position: absolute;
+  border-radius: 15%;
+  top: 70px;
+  left: 0px;
+}
+
+.iceBody2 {
+  width: 150px;
+  height: 200px;
+  background: #2C97F7;
+  position: absolute;
+  border-radius: 15%;
+  top: 40px;
+  left: 19px;
+}
+
+.iceBody3 {
+  width: 141px;
+  height: 170px;
+  background: #48BDFF;
+  position: absolute;
+  border-radius: 15%;
+  top: 70px;
+}
+
+.shineDot {
+  width: 13px;
+  height: 13px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 22px;
+  left: 40px;
+}
+
+.shineLine {
+  width: 45px;
+  height: 13px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 48px;
+  left: 5px;
+  border-radius: 41%;
+  transform: rotate(-56deg);
+}
+
+.stick {
+  width: 28px;
+  height: 46px;
+  background: #FFE7CD;
+  position: absolute;
+  top: 240px;
+  left: 50px;
+  border: 10px solid #000000;
+}
+
+.stickShadow {
+  width: 28px;
+  height: 15px;
+  background: #FEBE77;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.stickCover {
+  width: 28px;
+  height: 50px;
+  background: #FFE7CD;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.bottomStick {
+  width: 28px;
+  height: 32px;
+  background: #FFE7CD;
+  position: absolute;
+  top: 20px;
+  left: -11px;
+  border-radius: 50%;
+  border: 11px solid #000000;
+}
+
+.middleShadow {
+  width: 50px;
+  height: 90px;
+  background: #3EADFC;
+  position: absolute;
+  top: 150px;
+  left: 49px;
+}
+
+.topMiddleShadow {
+  width: 50px;
+  height: 50px;
+  background: #3EADFC;
+  position: absolute;
+  border-radius: 50%;
+  top: 120px;
+  left: 49px;
+}
+
+.eyeR {
+  width: 16px;
+  height: 16px;
+  background: #000000;
+  position: absolute;
+  border-radius: 50%;
+  top: 156px;
+  left: 33px;
+}
+
+.eyeL {
+  width: 16px;
+  height: 16px;
+  background: #000000;
+  position: absolute;
+  border-radius: 50%;
+  top: 156px;
+  left: 98px;
+}
+
+.mouth {
+  width: 32px;
+  height: 35px;
+  background: #000000;
+  position: absolute;
+  border-radius: 50%;
+  top: 155px;
+  left: 58px;
+}
+
+.tongue {
+  width: 14px;
+  height: 7px;
+  background: #FF8500;
+  position: absolute;
+  border-radius: 50%;
+  top: 25px;
+  left: 9px;
+}
+
+.mouthCover {
+  width: 50px;
+  height: 20px;
+  background: #3EADFC;
+  position: absolute;
+  top: 152px;
+  left: 49px;
+}
+
+.bottomStroke {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  border-radius: 15%;
+  top: 80px;
+  left: -30px;
+  border-bottom: 11px solid #000000;
+}
+
+.leftStroke {
+  width: 180px;
+  height: 160px;
+  position: absolute;
+  border-radius: 6%;
+  top: 70px;
+  left: -30px;
+  border-left: 11px solid #000000;
+}
+
+.leftStrokeEnd {
+  left: -30px;
+  top: 72px;
+}
+
+.rightStroke {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+  border-radius: 6%;
+  top: 167px;
+  left: -22px;
+  border-right: 11px solid #000000;
+}
+
+.rightStrokeEnd {
+  left: 158px;
+  top: 161px;
+}
+
+.dot {
+  width: 11px;
+  height: 11px;
+  background: #000000;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.rightStrokeStart2 {
+  left: 158px;
+  top: 144px;
+}
+
+.rightStroke2 {
+  width: 11px;
+  height: 20px;
+  background: #000000;
+  position: absolute;
+  left: 158px;
+  top: 127px;
+}
+
+.rightStrokeEnd2 {
+  left: 158px;
+  top: 121px;
+}
+
+.rightStroke3 {
+  width: 11px;
+  height: 35px;
+  background: #000000;
+  position: absolute;
+  left: 158px;
+  top: 75px;
+}
+
+.rightStrokeEnd3 {
+  left: 158px;
+  top: 105px;
+}
+
+.leftStroke2 {
+  left: -29px;
+  top: 54px;
+  height: 16px;
+  transform: rotate(15deg);
+}
+
+.topStroke {
+  width: 177px;
+  height: 78px;
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  border: 11px solid #000000;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  border-bottom: 0;
+}
+
+.topStrokeHackRight {
+  width: 30px;
+  height: 30px;
+  /* background: #FFFFFF; */
+  position: absolute;
+  top: 45px;
+  left: -40px;
+  transform: rotate(15deg);
+}
+
+.leftStroke3 {
+  left: -24px;
+  top: 42px;
+  height: 11px;
+  width: 11px;
+}
+
+.lineGround {
+  height: 11px;
+  background: #000000;
+  position: absolute;
+}
+
+.line1 {
+  width: 15px;
+  top: 470px;
+  left: 208px;
+}
+
+.dot-1 {
+  top: 470px;
+  left: 202px;
+}
+
+.dot-2 {
+  top: 470px;
+  left: 216px;
+}
+
+.line2 {
+  width: 265px;
+  top: 470px;
+  left: 240px;
+}
+
+.dot-3 {
+  top: 470px;
+  left: 236px;
+}
+
+.dot-4 {
+  top: 470px;
+  left: 498px;
+}
+
+.line3 {
+  width: 15px;
+  top: 470px;
+  left: 515px;
+  background: #000000;
+}
+
+.dot-5 {
+  top: 470px;
+  left: 512px;
+}
+
+.dot-6 {
+  top: 470px;
+  left: 522px;
+}
+
+.line4 {
+  width: 30px;
+  top: 470px;
+  left: 540px;
+}
+
+.dot-7 {
+  top: 470px;
+  left: 537px;
+}
+
+.dot-8 {
+  top: 470px;
+  left: 562px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-35px);
+    animation-timing-function: ease-in;
+  }
+}
+
+/* back to menu */
+.button-module {
+  position: relative;
+}
+.button {
+  margin: 10px;
+  height: 72px;
+  width: 180px;
+  border: none;
+  padding: 10px;
+  position: relative;
+  font-size: 1em;
+  text-align: center;
+  transition: all 0.3s ease;
+  z-index: 0;
+}
+.button.green-button {
+  background-color: #48BDFF;
+}
+.floating-button { background-color: rgba(233, 30, 99, 1); border-radius: 50%; color: #fff; height: 75px; width: 75px; font-size: 1em; font-weight: 100; box-shadow: 0 4px 10px 0 rgba(0,0,0,.5);
+}
+.floating-button:active, .floating-button:hover {
+  background-color: #48BDFF; box-shadow: 1px 5px 20px 0 rgba(0,0,0,.6);
+}
+.floating-button:focus {
+  outline: none;
+}
+.is-selected {
+  display: block;
+  position: absolute;
+  background-color: rgba(250, 250, 250, 0.3);
+  border-radius: 100%;
+  -webkit-transform:scale(0);
+     -moz-transform:scale(0);
+       -o-transform:scale(0);
+          transform:scale(0);
+  z-index: 10;
+}
+
+.animate {
+  -webkit-animation: ripple 0.4s linear;
+  -moz-animation: ripple 0.4s linear;
+  -o-animation: ripple 0.4s linear;
+  animation: ripple 0.4s linear;
+}
+
+@-webkit-keyframes ripple {
+  100% {opacity: 0; -webkit-transform: scale(2.5);}
+}
+@-moz-keyframes ripple {
+  100% {opacity: 0; -moz-transform: scale(2.5);}
+}
+@-o-keyframes ripple {
+  100% {opacity: 0; -o-transform: scale(2.5);}
+}
+@keyframes ripple {
+  100% {opacity: 0; transform: scale(2.5);}
+}
+.expanded-button.button {
+  border-radius: 50px;
+  width: 350px;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  display: inline;
+  list-style: none;
+  padding: 5px;
+  font-family: monospace;
+}
+.list-item {
+  display: none;
+}
