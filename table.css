@@ -44,7 +44,9 @@ h2 a {
   color: #E1BBC9;
   text-decoration: none;
 }
-
+.align-center {
+  text-align: center;
+}
 .blue { color: #C874D9; }
 .yellow { color: #FFF842; }
 
