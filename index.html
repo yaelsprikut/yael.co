@@ -1,107 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="description" content="Yael Sprikut: FullStack Developer">
-<meta name="keywords" content="Yael, Sprikut,CSS,XML,JavaScript, React, Redux">
-<meta name="author" content="Yael Sprikut">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="style.css?v=0.4">
-<link rel="icon" type="image/png" href="images/fav.png" />
-<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200' rel='stylesheet' type='text/css'>
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-<title>Yael's Desktop</title>
+	<meta charset="UTF-8">
+	<meta content="Yael Sprikut: FullStack Developer" name="description">
+	<meta content="Yael, Sprikut,CSS,XML,JavaScript, React, Redux" name="keywords">
+	<meta content="Yael Sprikut" name="author">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="style.css?v=0.4" rel="stylesheet" type="text/css">
+	<link href="images/fav.png" rel="icon" type="image/png">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js">
+	</script>
+	<title>Yael's Desktop</title>
 </head>
 <body class="wallpaper">
-  <div class="header">
-    <div class="header-left">
-      <ul>
-        <li><a href="#" style="font-size:18px;"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
-          <li><a href="#"><strong>Finder</strong></a></li>
-          <li><a href="#">file</a></li>
-          <li><a href="#">edit</a></li>
-          <li><a href="#">view</a></li>
-          <li><a href="#">go</a></li>
-          <li><a href="#">window</a></li>
-          <li><a href="#">help</a></li>
-      </ul>
-    </div>
-    <div class="header-right">
-    <ul>
-        <li><a href="#"><i class="fa fa-undo" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-bluetooth-b" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-wifi" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-volume-up" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-battery-half" aria-hidden="true"></i></a></li>
-          <li id="clock"><a href="#"> Sat 12:58 PM</a></li>
-          <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-list-ul" aria-hidden="true"></i></a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="container-term">
-  		<div class="window">
-  				<div class="handle">
-  						<div class="buttons">
-  								<button class="close">
-  								</button>
-  								<button class="minimize">
-  								</button>
-  								<button class="maximize">
-  								</button>
-  						</div>
-  						<span class="title"></span>
-  				</div>
-  				<div class="terminal"></div>
-  		</div>
-  </div>
-  <div>
-    <img src="images/cutiepie.jpg" style="position:fixed;bottom:220px;left:200px;z-index:-1;" alt="yael" width="250px">
-    <!-- <img src="images/yael.jpg" style="position:fixed;bottom:250px;left:500px;z-index:-1;opacity:0.7;" alt="yael" width="200px"> -->
-    <ul class="stickies">
-     <li>
-       <a href="#">
-         <h2><u>Command Cheatsheet</u></h2>
-         <p>
-           <span class="highlight">
-             <b>$ help</b> - help<br />
-             <b>$ clear</b> - clear window<br /><br />
-          </span>
-           <b><u>Aliases:</u></b><br /><br />
-           <span class="highlight">
-             <b>$ github</b> - view my <i class="fa fa-github"></i> profile<br />
-             <b>$ linkedin</b> - view my <i class="fa fa-linkedin"></i> profile<br />
-             <b>$ resume</b> - view my resume<br />
-          </span>
-         </p>
-       </a>
-     </li>
-     <li></li>
-     <li></li>
-     <li></li>
-     <li></li>
-     <li></li>
-     <li></li>
-     <li></li>
-     <li></li>
-     <li></li>
-     <li></li>
-     <li style="opacity:0.8; -o-transform:rotate(15deg);-webkit-transform:rotate(15deg);-moz-transform:rotate(15deg);">
-       <a href="yaelismean.html" style="text-align:center">
-         <h2><u>Don't touch the glitter</u></h2>
-         <p>don't do it</p>
-         <img src="images/glitter.gif" width="150px" alt="">
-       </a>
-     </li>
-   </ul>
-  </div>
-<div class="codeeditor">
-  <div class="code-editor">
-  <span class="control"></span>
-  <span class="control"></span>
-  <span class="control"></span>
-  <pre class="line-numbers" style="height:373px">
+	<div class="header">
+		<div class="header-left">
+			<ul>
+				<li>
+					<a href="#" style="font-size:18px;"><i aria-hidden="true" class="fa fa-apple"></i></a>
+				</li>
+				<li>
+					<a href="#"><strong>Finder</strong></a>
+				</li>
+				<li>
+					<a href="#">file</a>
+				</li>
+				<li>
+					<a href="#">edit</a>
+				</li>
+				<li>
+					<a href="#">view</a>
+				</li>
+				<li>
+					<a href="#">go</a>
+				</li>
+				<li>
+					<a href="#">window</a>
+				</li>
+				<li>
+					<a href="#">help</a>
+				</li>
+			</ul>
+		</div>
+		<div class="header-right">
+			<ul>
+				<li>
+					<a href="#"><i aria-hidden="true" class="fa fa-undo"></i></a>
+				</li>
+				<li>
+					<a href="#"><i aria-hidden="true" class="fa fa-bluetooth-b"></i></a>
+				</li>
+				<li>
+					<a href="#"><i aria-hidden="true" class="fa fa-wifi"></i></a>
+				</li>
+				<li>
+					<a href="#"><i aria-hidden="true" class="fa fa-volume-up"></i></a>
+				</li>
+				<li>
+					<a href="#"><i aria-hidden="true" class="fa fa-battery-half"></i></a>
+				</li>
+				<li id="clock">
+					<a href="#">Sat 12:58 PM</a>
+				</li>
+				<li>
+					<a href="#"><i aria-hidden="true" class="fa fa-search"></i></a>
+				</li>
+				<li>
+					<a href="#"><i aria-hidden="true" class="fa fa-list-ul"></i></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container-term">
+		<div class="window">
+			<div class="handle">
+				<div class="buttons">
+					<button class="close"></button> <button class="minimize"></button> <button class="maximize"></button>
+				</div><span class="title"></span>
+			</div>
+			<div class="terminal"></div>
+		</div>
+	</div>
+	<div>
+		<img alt="yael" src="images/cutiepie.jpg" style="position:fixed;bottom:220px;left:200px;z-index:-1;" width="250px"> <!-- <img src="images/yael.jpg" style="position:fixed;bottom:250px;left:500px;z-index:-1;opacity:0.7;" alt="yael" width="200px"> -->
+		<ul class="stickies">
+			<li>
+				<a href="#">
+				<h2><u>Command Cheatsheet</u></h2>
+				<p><span class="highlight"><b>$ help</b> - help<br>
+				<b>$ clear</b> - clear window<br>
+				<br></span> <b><u>Aliases:</u></b><br>
+				<br>
+				<span class="highlight"><b>$ github</b> - view my <i class="fa fa-github"></i> profile<br>
+				<b>$ linkedin</b> - view my <i class="fa fa-linkedin"></i> profile<br>
+				<b>$ resume</b> - view my resume<br></span></p></a>
+			</li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li style="opacity:0.8; -o-transform:rotate(15deg);-webkit-transform:rotate(15deg);-moz-transform:rotate(15deg);">
+				<a href="yaelismean.html" style="text-align:center">
+				<h2><u>Don't touch the glitter</u></h2>
+				<p>don't do it</p><img alt="" src="images/glitter.gif" width="150px"></a>
+			</li>
+		</ul>
+	</div>
+	<div class="codeeditor">
+		<div class="code-editor">
+			<span class="control"></span> <span class="control"></span> <span class="control"></span>
+			<pre class="line-numbers" style="height:373px">
     <code class="language-css">
   /*
   Author: Yael Sprikut
@@ -120,303 +136,292 @@
     languages: JavaScript, Python, Java;
   }
     </code>
-    <code><a style="text-decoration:none;color:blue;font-size:1.2em;background-color:#ffb2c0;padding:4px;" href="http://loweffortmemes.com/"><< loweffortmemes.com >></a></code><br />
-    <code><a style="text-decoration:none;color:blue;font-size:1.2em;background-color:#ffb2c0;padding:4px;" href="dash/index.html">Dashboard Boi</a></code><br/>
-  <code><a style="text-decoration:none;color:green;font-size:1.3em;background-color:#ffb2c0;padding:4px;" href="http://yael.co/table.html"><< table of stuff >> <small>click me!</small></a></code>
-  </pre>
-  <!-- <iframe src="https://open.spotify.com/embed/user/12164132258/playlist/35s5FmFtWA4waC3KvTb6U7" width="500" height="300" frameborder="0" allowtransparency="true"></iframe> -->
-</div>
-</div>
-  <div id="doc">
-    <img class="logo" width="40px" id="finder" src="images/founder.png" />
-    <img class="logo" width="40px" id="appstore" src="images/appstore.png" />
-    <img class="logo" width="40px" id="chrome" src="images/chrome.png">
-    <img class="logo" width="40px" id="atom" src="images/atom.png">
-    <img class="logo" width="40px" id="slack" src="images/slack.png">
-    <img class="logo" width="40px" id="iterm" src="images/iterm.png">
-    <img class="logo" width="40px" id="music" src="http://www.trackmusik.fr/components/com_muscol/assets/images/itunes.jpg" />
-    <img class="logo" width="40px" id="trash" src="https://www.macupdate.com/images/icons256/51758.png" />
-  </div>
-  <script>
-  $(document).ready(function() {
-  "use strict";
-  var iterm = $('.container-term');
+    <code><a href="http://lowereffortmemes.s3.amazonaws.com/index.html" style="text-decoration:none;color:blue;font-size:1.2em;background-color:#ffb2c0;padding:4px;">&lt;&lt; loweffortmemes.com &gt;&gt;</a></code><br>    <code><a href="http://yael.co/table.html" style="text-decoration:none;color:green;font-size:1.3em;background-color:#ffb2c0;padding:4px;">&lt;&lt; table of stuff &gt;&gt; <small>click me!</small></a></code>
+  </pre><!-- <iframe src="https://open.spotify.com/embed/user/12164132258/playlist/35s5FmFtWA4waC3KvTb6U7" width="500" height="300" frameborder="0" allowtransparency="true"></iframe> -->
+		</div>
+	</div>
+	<div id="doc"><img class="logo" id="finder" src="images/founder.png" width="40px"> <img class="logo" id="appstore" src="images/appstore.png" width="40px"> <img class="logo" id="chrome" src="images/chrome.png" width="40px"> <img class="logo" id="atom" src="images/atom.png" width="40px"> <img class="logo" id="slack" src="images/slack.png" width="40px"> <img class="logo" id="iterm" src="images/iterm.png" width="40px"> <img class="logo" id="music" src="http://www.trackmusik.fr/components/com_muscol/assets/images/itunes.jpg" width="40px"> <img class="logo" id="trash" src="https://www.macupdate.com/images/icons256/51758.png" width="40px"></div>
+	<script>
+	 $(document).ready(function() {
+	 "use strict";
+	 var iterm = $('.container-term');
 
-      $('#iterm').on('click', function() {
-        iterm.toggle();
-      });
+	     $('#iterm').on('click', function() {
+	       iterm.toggle();
+	     });
 
-      // UTILITY
-      function getRandomInt(min, max) {
-          return Math.floor(Math.random() * (max - min)) + min;
-      }
-      // END UTILITY
+	     // UTILITY
+	     function getRandomInt(min, max) {
+	         return Math.floor(Math.random() * (max - min)) + min;
+	     }
+	     // END UTILITY
 
-      // COMMANDS
-      function clear() {
-          terminal.text("");
-      }
+	     // COMMANDS
+	     function clear() {
+	         terminal.text("");
+	     }
 
-      function help() {
-          terminal.append("For more information, contact Yael Sprikut at ysprikut@gmail.com\n");
-      }
+	     function help() {
+	         terminal.append("For more information, contact Yael Sprikut at ysprikut@gmail.com\n");
+	     }
 
-      function github() {
-        window.open('https://github.com/yaelsprikut', '_blank');
-      }
+	     function github() {
+	       window.open('https://github.com/yaelsprikut', '_blank');
+	     }
 
-      function linkedin() {
-        window.open('https://www.linkedin.com/in/yaelsprikut/', '_blank');
-      }
+	     function linkedin() {
+	       window.open('https://www.linkedin.com/in/yaelsprikut/', '_blank');
+	     }
 
-      function resume() {
-        window.location.pathname = '/resume.pdf'
-      }
+	     function resume() {
+	       window.location.pathname = '/resume.pdf'
+	     }
 
-      function echo(args) {
-          var str = args.join(" ");
-          terminal.append(str + "\n");
-      }
+	     function echo(args) {
+	         var str = args.join(" ");
+	         terminal.append(str + "\n");
+	     }
 
-      function fortune() {
-          var xhr = new XMLHttpRequest();
-          xhr.open('GET', 'https://cdn.rawgit.com/bmc/fortunes/master/fortunes', false);
-          xhr.send(null);
+	     function fortune() {
+	         var xhr = new XMLHttpRequest();
+	         xhr.open('GET', 'https://cdn.rawgit.com/bmc/fortunes/master/fortunes', false);
+	         xhr.send(null);
 
-          if (xhr.status === 200) {
-              var fortunes = xhr.responseText.split("%");
-              var fortune = fortunes[getRandomInt(0, fortunes.length)].trim();
-              terminal.append(fortune + "\n");
-          }
-      }
-      // END COMMANDS
+	         if (xhr.status === 200) {
+	             var fortunes = xhr.responseText.split("%");
+	             var fortune = fortunes[getRandomInt(0, fortunes.length)].trim();
+	             terminal.append(fortune + "\n");
+	         }
+	     }
+	     // END COMMANDS
 
-      var title = $(".title");
-      var terminal = $(".terminal");
-      var prompt = "&#x2192;";
-      var path = "~";
+	     var title = $(".title");
+	     var terminal = $(".terminal");
+	     var prompt = "&#x2192;";
+	     var path = "~";
 
-      var commandHistory = [];
-      var historyIndex = 0;
+	     var commandHistory = [];
+	     var historyIndex = 0;
 
-      var command = "";
-      var commands = [{
-              "name": "clear",
-              "function": clear
-          }, {
-              "name": "help",
-              "function": help
-          }, {
-              "name": "fortune",
-              "function": fortune
-          }, {
-              "name": "github",
-              "function": github
-          },{
-              "name": "linkedin",
-              "function": linkedin
-          }, {
-              "name": "resume",
-              "function": resume
-          },{
-              "name": "echo",
-              "function": echo
-          }];
+	     var command = "";
+	     var commands = [{
+	             "name": "clear",
+	             "function": clear
+	         }, {
+	             "name": "help",
+	             "function": help
+	         }, {
+	             "name": "fortune",
+	             "function": fortune
+	         }, {
+	             "name": "github",
+	             "function": github
+	         },{
+	             "name": "linkedin",
+	             "function": linkedin
+	         }, {
+	             "name": "resume",
+	             "function": resume
+	         },{
+	             "name": "echo",
+	             "function": echo
+	         }];
 
-    function processCommand() {
-      var isValid = false;
+	   function processCommand() {
+	     var isValid = false;
 
-      // Create args list by splitting the command
-      // by space characters and then shift off the
-      // actual command.
+	     // Create args list by splitting the command
+	     // by space characters and then shift off the
+	     // actual command.
 
-      var args = command.split(" ");
-      var cmd = args[0];
-      args.shift();
+	     var args = command.split(" ");
+	     var cmd = args[0];
+	     args.shift();
 
-      // Iterate through the available commands to find a match.
-      // Then call that command and pass in any arguments.
-      for (var i = 0; i < commands.length; i++) {
-          if (cmd === commands[i].name) {
-              commands[i].function(args);
-              isValid = true;
-              break;
-          }
-      }
+	     // Iterate through the available commands to find a match.
+	     // Then call that command and pass in any arguments.
+	     for (var i = 0; i < commands.length; i++) {
+	         if (cmd === commands[i].name) {
+	             commands[i].function(args);
+	             isValid = true;
+	             break;
+	         }
+	     }
 
-      // No match was found...
-      if (!isValid) {
-          terminal.append("zsh: command not found: " + command + "\n");
-      }
+	     // No match was found...
+	     if (!isValid) {
+	         terminal.append("zsh: command not found: " + command + "\n");
+	     }
 
-      // Add to command history and clean up.
-      commandHistory.push(command);
-      historyIndex = commandHistory.length;
-      command = "";
-    }
+	     // Add to command history and clean up.
+	     commandHistory.push(command);
+	     historyIndex = commandHistory.length;
+	     command = "";
+	   }
 
-    function displayPrompt() {
-      terminal.append("<span class=\"prompt\">" + prompt + "</span> ");
-      terminal.append("<span class=\"path\">" + path + "</span> ");
-    }
+	   function displayPrompt() {
+	     terminal.append("<span class=\"prompt\">" + prompt + "<\/span> ");
+	     terminal.append("<span class=\"path\">" + path + "<\/span> ");
+	   }
 
-    // Delete n number of characters from the end of our output
-    function erase(n) {
-      command = command.slice(0, -n);
-      terminal.html(terminal.html().slice(0, -n));
-    }
+	   // Delete n number of characters from the end of our output
+	   function erase(n) {
+	     command = command.slice(0, -n);
+	     terminal.html(terminal.html().slice(0, -n));
+	   }
 
-    function clearCommand() {
-      if (command.length > 0) {
-          erase(command.length);
-      }
-    }
+	   function clearCommand() {
+	     if (command.length > 0) {
+	         erase(command.length);
+	     }
+	   }
 
-    function appendCommand(str) {
-      terminal.append(str);
-      command += str;
-    }
+	   function appendCommand(str) {
+	     terminal.append(str);
+	     command += str;
+	   }
 
-    /*
-    //	Keypress doesn't catch special keys,
-    //	so we catch the backspace here and
-    //	prevent it from navigating to the previous
-    //	page. We also handle arrow keys for command history.
-    */
+	   /*
+	   //  Keypress doesn't catch special keys,
+	   //  so we catch the backspace here and
+	   //  prevent it from navigating to the previous
+	   //  page. We also handle arrow keys for command history.
+	   */
 
-    $(document).keydown(function(e) {
-      e = e || window.event;
-      var keyCode = typeof e.which === "number" ? e.which : e.keyCode;
+	   $(document).keydown(function(e) {
+	     e = e || window.event;
+	     var keyCode = typeof e.which === "number" ? e.which : e.keyCode;
 
-      // BACKSPACE
-      if (keyCode === 8 && e.target.tagName !== "INPUT" && e.target.tagName !== "TEXTAREA") {
-          e.preventDefault();
-          if (command !== "") {
-              erase(1);
-          }
-      }
+	     // BACKSPACE
+	     if (keyCode === 8 && e.target.tagName !== "INPUT" && e.target.tagName !== "TEXTAREA") {
+	         e.preventDefault();
+	         if (command !== "") {
+	             erase(1);
+	         }
+	     }
 
-      // UP or DOWN
-      if (keyCode === 38 || keyCode === 40) {
-          // Move up or down the history
-          if (keyCode === 38) {
-              // UP
-              historyIndex--;
-              if (historyIndex < 0) {
-                  historyIndex++;
-              }
-          } else if (keyCode === 40) {
-              // DOWN
-              historyIndex++;
-              if (historyIndex > commandHistory.length - 1) {
-                  historyIndex--;
-              }
-          }
+	     // UP or DOWN
+	     if (keyCode === 38 || keyCode === 40) {
+	         // Move up or down the history
+	         if (keyCode === 38) {
+	             // UP
+	             historyIndex--;
+	             if (historyIndex < 0) {
+	                 historyIndex++;
+	             }
+	         } else if (keyCode === 40) {
+	             // DOWN
+	             historyIndex++;
+	             if (historyIndex > commandHistory.length - 1) {
+	                 historyIndex--;
+	             }
+	         }
 
-          // Get command
-          var cmd = commandHistory[historyIndex];
-          if (cmd !== undefined) {
-              clearCommand();
-              appendCommand(cmd);
-          }
-      }
-    });
+	         // Get command
+	         var cmd = commandHistory[historyIndex];
+	         if (cmd !== undefined) {
+	             clearCommand();
+	             appendCommand(cmd);
+	         }
+	     }
+	   });
 
-    $(document).keypress(function(e) {
-      // Make sure we get the right event
-      e = e || window.event;
-      var keyCode = typeof e.which === "number" ? e.which : e.keyCode;
+	   $(document).keypress(function(e) {
+	     // Make sure we get the right event
+	     e = e || window.event;
+	     var keyCode = typeof e.which === "number" ? e.which : e.keyCode;
 
-      // Which key was pressed?
-      switch (keyCode) {
-          // ENTER
-          case 13:
-              {
-                  terminal.append("\n");
+	     // Which key was pressed?
+	     switch (keyCode) {
+	         // ENTER
+	         case 13:
+	             {
+	                 terminal.append("\n");
 
-                  processCommand();
-                  displayPrompt();
-                  break;
-              }
-          default:
-              {
-                  appendCommand(String.fromCharCode(keyCode));
-              }
-      }
-    });
+	                 processCommand();
+	                 displayPrompt();
+	                 break;
+	             }
+	         default:
+	             {
+	                 appendCommand(String.fromCharCode(keyCode));
+	             }
+	     }
+	   });
 
-    // Set the window title
-    title.text("1. yael-macbook@mbp: ~ (zsh)");
+	   // Set the window title
+	   title.text("1. yael-macbook@mbp: ~ (zsh)");
 
-    // Get the date for our fake last-login
-    var date = new Date().toString(); date = date.substr(0, date.indexOf("GMT") - 1);
-    // Display last-login and promt
-    terminal.append("Last login: " + date + " on ttys000\n"); displayPrompt();
-    });
-    //Clock;
-function updateClock() {
-		var currentTime = new Date();
-		var currentHours = currentTime.getHours();
-		var currentMinutes = currentTime.getMinutes();
-		var currentSeconds = currentTime.getSeconds();
-		var shortDays = [
-				'Sun', //Sunday starts at 0
-				'Mon',
-				'Tue',
-				'Wed',
-				'Thu',
-				'Fri',
-				'Sat'
-		];
-		var longDays = [
-				'Sunday', //Sunday starts at 0
-				'Monday',
-				'Tuesday',
-				'Wednesday',
-				'Thursday',
-				'Friday',
-				'Saturday'
-		];
-		var months = ['January', 'Feburary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+	   // Get the date for our fake last-login
+	   var date = new Date().toString(); date = date.substr(0, date.indexOf("GMT") - 1);
+	   // Display last-login and promt
+	   terminal.append("Last login: " + date + " on ttys000\n"); displayPrompt();
+	   });
+	   //Clock;
+	function updateClock() {
+	       var currentTime = new Date();
+	       var currentHours = currentTime.getHours();
+	       var currentMinutes = currentTime.getMinutes();
+	       var currentSeconds = currentTime.getSeconds();
+	       var shortDays = [
+	               'Sun', //Sunday starts at 0
+	               'Mon',
+	               'Tue',
+	               'Wed',
+	               'Thu',
+	               'Fri',
+	               'Sat'
+	       ];
+	       var longDays = [
+	               'Sunday', //Sunday starts at 0
+	               'Monday',
+	               'Tuesday',
+	               'Wednesday',
+	               'Thursday',
+	               'Friday',
+	               'Saturday'
+	       ];
+	       var months = ['January', 'Feburary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-		d = new Date(); //This returns Wed Apr 02 2014 17:28:55 GMT+0800 (Malay Peninsula Standard Time)
-		m = d.getMonth();
-		month = (months[m]);
-		date = d.getDate();
-		year = d.getFullYear();
-		x = d.getDay(); //This returns a number, starting with 0 for Sunday
+	       d = new Date(); //This returns Wed Apr 02 2014 17:28:55 GMT+0800 (Malay Peninsula Standard Time)
+	       m = d.getMonth();
+	       month = (months[m]);
+	       date = d.getDate();
+	       year = d.getFullYear();
+	       x = d.getDay(); //This returns a number, starting with 0 for Sunday
 
-		var day = (shortDays[x]);
-		var longDay = (longDays[x]);
+	       var day = (shortDays[x]);
+	       var longDay = (longDays[x]);
 
-		// Pad the minutes and seconds with leading zeros, if required
-		currentMinutes = (currentMinutes < 10 ? "0" : "") + currentMinutes;
-		currentSeconds = (currentSeconds < 10 ? "0" : "") + currentSeconds;
+	       // Pad the minutes and seconds with leading zeros, if required
+	       currentMinutes = (currentMinutes < 10 ? "0" : "") + currentMinutes;
+	       currentSeconds = (currentSeconds < 10 ? "0" : "") + currentSeconds;
 
-		// Choose either "AM" or "PM" as appropriate
-		var timeOfDay = (currentHours < 12) ? "AM" : "PM";
+	       // Choose either "AM" or "PM" as appropriate
+	       var timeOfDay = (currentHours < 12) ? "AM" : "PM";
 
-		// Convert the hours component to 12-hour format if needed
-		currentHours = (currentHours > 12) ? currentHours - 12 : currentHours;
+	       // Convert the hours component to 12-hour format if needed
+	       currentHours = (currentHours > 12) ? currentHours - 12 : currentHours;
 
-		// Convert an hours component of "0" to "12"
-		currentHours = (currentHours === 0) ? 12 : currentHours;
+	       // Convert an hours component of "0" to "12"
+	       currentHours = (currentHours === 0) ? 12 : currentHours;
 
-		// Compose the string for display
-		var currentTimeString = day + " " + currentHours + ":" + currentMinutes + " " + timeOfDay;
-		var longTimeString = longDay + ", " + month + " " + date + ", " + year;
-		$("#clock").html(currentTimeString);
-		// $("#date").html(longTimeString);
+	       // Compose the string for display
+	       var currentTimeString = day + " " + currentHours + ":" + currentMinutes + " " + timeOfDay;
+	       var longTimeString = longDay + ", " + month + " " + date + ", " + year;
+	       $("#clock").html(currentTimeString);
+	       // $("#date").html(longTimeString);
 
-}
+	}
 
-$(document).ready(function() {
-		updateClock();
-		setInterval('updateClock()', 1000);
-});
-  </script>
-  <footer>
-    <script src="js/scripts.js"></script>
-  </footer>
+	$(document).ready(function() {
+	       updateClock();
+	       setInterval('updateClock()', 1000);
+	});
+	</script> <iframe id="spotify-playlist" frameborder="0" height="380" src="https://open.spotify.com/embed/playlist/586wtNdrOUVvzv219EnPAM" width="300"></iframe>
+	<footer>
+		<script src="js/scripts.js">
+		</script>
+	</footer>
 </body>
 </html>

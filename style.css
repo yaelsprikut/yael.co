@@ -72,6 +72,12 @@ textarea, input, button {
   padding-top: 100px;
   padding-left: 20px;
 }
+
+#spotify-playlist {
+  position: relative;
+  bottom: 350px;
+  border: green 5px solid;
+}
 .window-button, .window .buttons .close, .window .buttons .minimize, .window .buttons .maximize {
   padding: 0;
   margin: 0;
