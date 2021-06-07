@@ -144,6 +144,7 @@
 	<script>
 	 $(document).ready(function() {
 	 "use strict";
+	 
 	 var iterm = $('.container-term');
 
 	     $('#iterm').on('click', function() {
@@ -418,9 +419,49 @@
 	       updateClock();
 	       setInterval('updateClock()', 1000);
 	});
-	</script> <iframe id="spotify-playlist" frameborder="0" height="380" src="https://open.spotify.com/embed/playlist/586wtNdrOUVvzv219EnPAM" width="300"></iframe>
+	</script> 
+
+	<div id="draggable" class="no-select"><a href="https://www.freepnglogos.com/pics/spotify-logo-png" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png" width="30" alt="spotify download logo" /></a>Spotify Player<img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png" width="30" alt="spotify download logo" /><br/> you can drag me around!<br/><br/>
+		<div><iframe frameborder="0" height="380" src="https://open.spotify.com/embed/playlist/586wtNdrOUVvzv219EnPAM" width="300"></iframe></div>
+	</div>
 	<footer>
 		<script src="js/scripts.js">
+		</script>
+		<script>
+			var isMouseDown,initX,initY,height = draggable.offsetHeight,width = draggable.offsetWidth;
+
+			draggable.addEventListener('mousedown', function(e) {
+			isMouseDown = true;
+			document.body.classList.add('no-select');
+			initX = e.offsetX;
+			initY = e.offsetY;
+			})
+
+			document.addEventListener('mousemove', function(e) {
+			if (isMouseDown) {
+				var cx = e.clientX - initX,
+					cy = e.clientY - initY;
+				if (cx < 0) {
+				cx = 0;
+				}
+				if (cy < 0) {
+				cy = 0;
+				}
+				if (window.innerWidth - e.clientX + initX < width) {
+				cx = window.innerWidth - width;
+				}
+				if (e.clientY > window.innerHeight - height+ initY) {
+				cy = window.innerHeight - height;
+				}
+				draggable.style.left = cx + 'px';
+				draggable.style.top = cy + 'px';
+			}
+			})
+
+			draggable.addEventListener('mouseup', function() {
+			isMouseDown = false;
+			document.body.classList.remove('no-select');
+			})
 		</script>
 	</footer>
 </body>

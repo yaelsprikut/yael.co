@@ -73,11 +73,23 @@ textarea, input, button {
   padding-left: 20px;
 }
 
-#spotify-playlist {
-  position: relative;
-  bottom: 350px;
-  border: green 5px solid;
+#draggable {
+  background: #eee;
+  align-items: center;
+  text-align: center;
+  justify-content:center;
+  position: fixed;
+  left:0;top: 0;
+  font-size:0.8rem;
+  border: green 5px solid; 
+  padding: 10px;
+  background-color: greenyellow;
 }
+
+.no-select {
+  user-select: none;
+}
+
 .window-button, .window .buttons .close, .window .buttons .minimize, .window .buttons .maximize {
   padding: 0;
   margin: 0;
